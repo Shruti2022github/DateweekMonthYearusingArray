@@ -1,0 +1,19 @@
+<html>
+<script>
+mydate=new Date();
+var cdow=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var cmonth=["January","Febuary","March","April","May","June","July","August","September","October","November","December"];
+
+dow=mydate.getDay();
+m=mydate.getMonth();
+y=mydate.getFullYear();
+d=mydate.getDate();
+document.write(cdow[dow]+" "+d+" "+cmonth[m]+" "+y);
+
+</script>
+<title>Date and Time Example</title>
+<body>
+<form name=form1>
+</form>
+</body>
+</html>
